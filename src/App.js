@@ -6,7 +6,7 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import CourseCard from "./Components/CourseCard";
 import CourseContent from "./Components/CourseContent";
-// import web from './assets/webd.jpg';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 function App() {

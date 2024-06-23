@@ -53,7 +53,7 @@ export default function SkillCatalog() {
             { title: "Spanish", link: "/spanish" },
             { title: "Japanese", link: "/japanese" },
             { title: "Chinese", link: "/chinese" },
-            { title: "Chinese", link: "/italian" },
+            { title: "Italian", link: "/italian" },
           ]}
           iconPath={require("../assets/world.png")}
           title="World Languages"

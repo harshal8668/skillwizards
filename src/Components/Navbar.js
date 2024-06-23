@@ -14,10 +14,11 @@ function NavItem(props){
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar sticky-top navbar-expand-lg">
       <div className=" container container-fluid">
         <Link className="navbar-brand my-auto" to="/">
-            <img src={require("../assets/Logo.jpg")} alt="Logo" width="30" height="30" className="d-inline-block align-text-top me-2"/>SkillWizards
+            <img src={require("../assets/Logo.jpg")} alt="Logo" width="30" height="30" className="d-inline-block align-text-top me-2"/>
+            <span >SkillWizards</span>
         </Link>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +26,7 @@ export default function Navbar() {
         </button>
         
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav  me-auto mb-2 mb-lg-0">
             <NavItem className="nav-link" title="Home" linkTo="/"></NavItem>
             <NavItem className="nav-link" title="About" linkTo="/about"></NavItem>
             <li className="nav-item dropdown">

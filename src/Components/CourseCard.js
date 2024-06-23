@@ -6,7 +6,7 @@ export default function CourseCard(props) {
   const res = courses.map((course) => (
     <div key={course.title} id={course.id}>
       <h5>{course.title}</h5>
-      <p>{course.description}</p>
+      {/* <p>{course.description}</p> */}
       <div className="d-flex flex-wrap CourseCardContainer mx-auto">
         {course.modules.map((module, index) => (
           <Link key={module.name} to={module.pathlink} className="links">
@@ -31,15 +31,17 @@ export default function CourseCard(props) {
 
   return (
     <>
-      <div className="back">
-        <div className="container">
-          <Link to="/courses" className="links" style={{ color: "white" }}>
+      <nav className="back">
+        <div className="container py-3">
+          <Link to="/courses" className="links " style={{ color: "white" }}>
             All Courses
           </Link>
         </div>
-      </div>
+      </nav>
+
+
       <section className="container mt-3">
-        <h2>What we Offer</h2>
+        <h2>What We Offer</h2>
         <div>{res}</div>
       </section>
     </>

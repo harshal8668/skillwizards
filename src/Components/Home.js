@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import SkillCatalog from "./SkillCatalog";
 import React from 'react';
-// Import Swiper React components
+
 
 
 
@@ -32,7 +32,7 @@ export default function Home() {
       <section className="nicheSection">
         <div className="container">
           <h1 className="heading">Find Your<br/>Niche</h1>
-          <Link to="/courses" className="links"><button className="btn-5"><span>Explore Courses</span></button></Link>
+          <Link to="/courses" className="links"><button className="btn-5"><i className="bi bi-arrow-up-right-circle-fill pe-1"></i><span>Explore Courses</span></button></Link>
         </div>
       </section>
       <SkillCatalog></SkillCatalog>

@@ -7,9 +7,12 @@ export default function CourseContent(props) {
   ));
   return (
     <>
-    <div className="back">
-      <div className="container"><Link to='/courses' className="links" style={{color:'white'}}>All Courses</Link> - <Link className="links" style={{color:'white'}} to={props.courseLink}> {props.course} </Link>- {props.title}</div>
-    </div>
+    <nav className="back">
+      <div className="container py-3">
+        <Link to='/courses' className="links" style={{color:'white'}}>All Courses</Link> - 
+        <Link className="links" style={{color:'white'}} to={props.courseLink}> {props.course} </Link>- {props.title}</div>
+    </nav>
+
     <div className="container">
       <h3>{props.title}</h3>
       <p>{props.description}</p>

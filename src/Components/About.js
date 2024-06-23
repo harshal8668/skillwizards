@@ -35,7 +35,7 @@ function Mentors(props){
 return(
   <div>
       <img className="mentorsImg" src={props.imgSrc} alt="mentors"/>
-      <p>{props.name}</p>
+      <p style={{textDecoration:'underline',textUnderlineOffset:'3px'}}>{props.name}</p>
       <p>{props.designation}</p>
       <p>{props.organization}</p>
   </div>
@@ -56,7 +56,7 @@ export default function About() {
       <AboutSections className="visionSection" sectionImgSrc={require('../assets/vision.jpeg')} content={vision} title="OUR VISION"></AboutSections>
       <AboutSections className="missionSection" sectionImgSrc={require('../assets/mission.jpeg')} content={mission} title="OUR MISSION"></AboutSections>
 
-      <h2 className="titles">Our Mentors</h2>
+      <h2 className="titles">OUR MENTORS</h2>
       <section className="mentorsContainer">
         <Mentors  imgSrc={require('../assets/lalitSir.jpeg')} name="Dr. L. B. Damahe" designation="Head of Department" organization="CSE,YCCE"></Mentors>
         

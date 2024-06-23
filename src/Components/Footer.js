@@ -5,12 +5,23 @@ export default function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer__content">
-          <p>Copyright 2023 All Rights Reserved</p>
-          <ul className="footer__links">
+          <span>
+          <img src={require("../assets/handshake.png")}   alt="icon"  width={50} height={50}/>
+          <p className='fs-3'>Inspiring Minds, Shaping India's Tech Landscape</p>
+          </span>
+          
+            <ul className="footer__links my-3 ">
+              <li><a href="/"><i className="bi bi-whatsapp fs-2"></i></a></li>
+              <li><a href="/"><i className="bi bi-instagram fs-2"></i></a></li>
+              <li><a href="/"><i className="bi bi-linkedin fs-2"></i></a></li>
+              <li><a href="/"><i className="bi bi-youtube fs-2"></i></a></li>
+            </ul>
+          <ul className="footer__links my-3">
             <li><a href="/">Terms of Use</a></li>
             <li><a href="/">Privacy Policy</a></li>
             <li><a href="/">Contact Us</a></li>
           </ul>
+          <p>Copyright <i className="bi bi-c-circle"></i> 2024 All Rights Reserved</p>
         </div>
       </div>
     </footer>
