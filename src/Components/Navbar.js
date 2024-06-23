@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 
@@ -13,6 +13,19 @@ function NavItem(props){
 }
 
 export default function Navbar() {
+  const [NavState,SetNavState]=useState("open");
+
+  const handleNavBar=()=>{
+    if(NavState==="open"){
+      SetNavState("close");
+      // console.log(NavState)
+    }
+    else{
+      SetNavState("open");
+      // console.log(NavState)
+    }
+  }
+
   return (
     <nav className="navbar sticky-top navbar-expand-lg">
       <div className=" container container-fluid">
@@ -21,8 +34,12 @@ export default function Navbar() {
             <span >SkillWizards</span>
         </Link>
 
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+        <button onClick={handleNavBar} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          {
+          
+            NavState==="open"?<i className="bi bi-list"></i>:
+            <i className="bi bi-x"></i>
+          }
         </button>
         
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -30,8 +47,8 @@ export default function Navbar() {
             <NavItem className="nav-link" title="Home" linkTo="/"></NavItem>
             <NavItem className="nav-link" title="About" linkTo="/about"></NavItem>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="/courses" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-                Categories
+              <a className="nav-link " href="/courses" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                Categories<i className="ms-1 bi bi-caret-down-fill align-middle"></i>
               </a>
               <ul className="dropdown-menu">
                 <NavItem className="dropdown-item" title="Programming Languages" linkTo="/courses/programming"></NavItem>

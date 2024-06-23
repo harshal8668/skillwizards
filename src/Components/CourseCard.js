@@ -34,8 +34,9 @@ export default function CourseCard(props) {
       <nav className="back">
         <div className="container py-3">
           <Link to="/courses" className="links " style={{ color: "white" }}>
-            All Courses
+            All Courses 
           </Link>
+          {courses.length===1? <i className="bi bi-caret-right-fill">{courses[0].title}</i> :""}
         </div>
       </nav>
 
