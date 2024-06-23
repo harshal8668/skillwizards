@@ -191,6 +191,30 @@ max-width: 200px;
 }
 /* About Design */
 
+/* COURSE CONTENT */
+
+
+.courseContent div span div{
+  gap:0.5rem;
+
+}
+
+.courseContent div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.courseContent div span div span{
+/* border: 2px solid red; */
+padding: 5px;
+text-align: center;
+}
+.courseContent img{
+  margin-right: 10px;
+}
+
+/* COURSE CONTENT */
 
 /* Footer Design */
 .footer {
@@ -306,6 +330,27 @@ flex-direction: column;
     flex-direction: row-reverse;
   
   }
+  
+.courseContent div{
+  flex-direction: row-reverse;
+  gap:1rem;
+  /* border: 2px solid red; */
+}
+
+.courseContent div span div span{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 2px;
+}
+.courseContent img{
+    width: 45vw;
+    margin-right: 0px;
+
+}
+
 
 }
 

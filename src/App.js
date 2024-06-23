@@ -124,7 +124,7 @@ function App() {
           </Route>
 
           <Route  exact  path="/webdevelopment"  element={
-              <CourseContent course="Domain Specific" courseLink='/courses/domainspecific'  title="Web Developement"  description="Description"  imgLink={require("./assets/webd.jpg")}  lectureCount="15"  contents={contents}/>}>
+              <CourseContent course="Domain Specific" courseLink='/courses/domainspecific'  title="Web Developement"  description="Description about web development what it is "  imgLink={require("./assets/webd.jpg")}  lectureCount="15"  contents={contents}/>}>
           </Route>
 
           <Route  exact  path="/appdevelopment"  element={
