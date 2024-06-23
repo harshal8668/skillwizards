@@ -63,14 +63,7 @@ export const courses = [
     },
   ];
 
-//  export const contents=[
-//     "Basic",
-//     "Loops & Conditional statements",
-//     "Functions & Pointers",
-//     "Object Oriented Programming",
-//     "Advance Concepts",
-//     "Final Projects",
-//   ];
+
 
  export const contents=[
     {title:'Basic', description:'Description'},
