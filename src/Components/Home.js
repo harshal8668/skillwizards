@@ -3,8 +3,6 @@ import SkillCatalog from "./SkillCatalog";
 import React from 'react';
 
 
-
-
 function Reasons(){
 return(
     <section className="my-5 container">
@@ -29,12 +27,15 @@ return(
 export default function Home() {
   return (
     <>
+    
       <section className="nicheSection">
         <div className="container">
           <h1 className="heading">Find Your<br/>Niche</h1>
           <Link to="/courses" className="links"><button className="btn-5"><i className="bi bi-arrow-up-right-circle-fill pe-1"></i><span>Explore Courses</span></button></Link>
         </div>
+        
       </section>
+      
       <SkillCatalog></SkillCatalog>
       <Reasons></Reasons>
     </>
