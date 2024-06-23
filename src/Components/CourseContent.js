@@ -3,22 +3,17 @@ import { Link } from "react-router-dom";
 
 export default function CourseContent(props) {
   const result = props.contents.map((content, index) => (
-
     <div  key={index} className="accordion" id="accordionExample">
       <div className="accordion-item">
         <h2 className="accordion-header">
           <button  className="accordion-button"  type="button"  data-bs-toggle="collapse"  data-bs-target={"#"+index}  aria-expanded="true"  aria-controls={index}>
-          {content}
+          {content.title}
           </button>
         </h2>
 
-        <div
-          id={index}
-          className="accordion-collapse collapse"
-          data-bs-parent="#accordionExample"
-        >
+        <div  id={index}  className="accordion-collapse collapse"  data-bs-parent="#accordionExample">
           <div className="accordion-body">
-            Description
+            {content.description}
           </div>
         </div>
       </div>

@@ -6,7 +6,6 @@ export default function CourseCard(props) {
   const res = courses.map((course) => (
     <div key={course.title} id={course.id}>
       <h5>{course.title}</h5>
-      {/* <p>{course.description}</p> */}
       <div className="d-flex flex-wrap CourseCardContainer mx-auto">
         {course.modules.map((module, index) => (
           <Link key={module.name} to={module.pathlink} className="links">
