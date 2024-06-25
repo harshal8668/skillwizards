@@ -32,17 +32,17 @@ export default function CourseContent(props) {
 
     <div className="container courseContent">
       <h3 className="my-3">{props.title}</h3>
-      <div>
+      <div className="courseSubContent">
         <img src={props.imgLink} alt="Img" />
-        <span>
+        <div>
           <h4 className="my-3">About Course</h4>
           <p>{props.description}</p>
 
-          <div className="d-flex">
-          <span ><img src={require('../assets/lecture.png')} style={{width:'30px'}}  alt="" />{props.lectureCount} Lectures</span>
-          <span ><img src={require('../assets/clock.png')}  style={{width:'30px'}} alt="" />60 Min / class</span>
+          <div className="courseSchedule">
+            <span className="my-2"><img  className="me-2" src={require('../assets/lecture.png')} style={{width:'30px'}}  alt="" />{props.lectureCount} Lectures</span>
+            <span className="my-2"><img  className="me-2" src={require('../assets/clock.png')}  style={{width:'30px'}} alt="" />60 Min / class</span>
           </div>
-        </span>
+        </div>
       </div>
     </div>
 

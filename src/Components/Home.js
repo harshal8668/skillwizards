@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import SkillCatalog from "./SkillCatalog";
 import React from 'react';
-
+import About from './About'
 
 function Reasons(){
 return(
@@ -35,7 +35,7 @@ export default function Home() {
         </div>
         
       </section>
-      
+      <About></About>
       <SkillCatalog></SkillCatalog>
       <Reasons></Reasons>
     </>

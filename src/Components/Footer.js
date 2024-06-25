@@ -20,7 +20,7 @@ export default function Footer() {
           <ul className="footer__links my-3">
             <li><a href="/">Terms of Use</a></li>
             <li><a href="/">Privacy Policy</a></li>
-            <li><Contact></Contact></li>
+            <Contact></Contact>
             
           </ul>
           <p>Copyright <i className="bi bi-c-circle"></i> 2024 All Rights Reserved</p>

@@ -11,7 +11,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
 
-  const { courses, contents } = require('./Components/data');
+  const { courses, contents } = require('./data');
 
   const programmingCatalog = [courses[0]];
   const domainCatalog = [courses[1]];
@@ -34,7 +34,7 @@ function App() {
           <Route  exact  path="/courses/generalskill"  element={<CourseCard courses={generalCatalog} />}></Route>
           
           <Route  exact  path="/cpp"  element={
-              <CourseContent course="Programming" courseLink='/courses/programming'    title="C++ Programming"  description="Description"  imgLink={require("./assets/cpp programming.jpg")}  lectureCount="15"  contents={contents}/>}>
+              <CourseContent course="Programming" courseLink='/courses/programming'    title="C++ Programming"  description="Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description "  imgLink={require("./assets/cpp programming.jpg")}  lectureCount="15"  contents={contents}/>}>
           </Route>
 
           <Route  exact  path="/cprogramming"  element={
