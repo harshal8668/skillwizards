@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function CourseContent(props) {
-  const result = props.contents.map((content, index) => (
+  const result = props.contents.modules.map((content, index) => (
     <div  key={index} className="accordion" id="accordionExample">
       <div className="accordion-item">
         <h2 className="accordion-header">
@@ -36,7 +36,7 @@ export default function CourseContent(props) {
         <img src={props.imgLink} alt="Img" />
         <div>
           <h4 className="my-3">About Course</h4>
-          <p>{props.description}</p>
+          <p>{props.contents.description}</p>
 
           <div className="courseSchedule">
             <span className="my-2"><img  className="me-2" src={require('../assets/lecture.png')} style={{width:'30px'}}  alt="" />{props.lectureCount} Lectures</span>

@@ -64,15 +64,28 @@ export const courses = [
   ];
 
 
-
- export const contents=[
+export const contents={
+  description:"DESCRIPTION",
+  modules:[
     {title:'Basic', description:'Description'},
     {title:'Loops & Conditional statements', description:'Description'},
     {title:'Functions & Pointers', description:'Description'},
     {title:'Object Oriented Programming', description:'Description'},
     {title:'Advance Concepts', description:'Description'},
     {title:'Final Projects', description:'Description'},
-  ];
+  ]};
+
+ export const Ccontents={
+  description:"About Course DESCRIPTION",
+  modules:[
+    {title:'Basic', description:'Description'},
+    {title:'Loops & Conditional statements', description:'Description'},
+    {title:'Functions & Pointers', description:'Description'},
+    {title:'Object Oriented Programming', description:'Description'},
+    {title:'Advance Concepts', description:'Description'},
+    {title:'Final Projects', description:'Description'},
+  ]};
+
 
 export const mentors = [
   {name:"Dr. L. B. Damahe", designation:"Head of Department", organization:"Professor",img: "/assets/lalitSir.jpeg",},

@@ -11,7 +11,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
 
-  const { courses, contents } = require('./data');
+  const { courses, contents, Ccontents } = require('./data');
 
   const programmingCatalog = [courses[0]];
   const domainCatalog = [courses[1]];
@@ -33,14 +33,16 @@ function App() {
           <Route  exact  path="/courses/lifeskill"  element={<CourseCard courses={lifeCatalog} />}></Route>
           <Route  exact  path="/courses/generalskill"  element={<CourseCard courses={generalCatalog} />}></Route>
           
+          
+
+          <Route  exact  path="/cprogramming"  element={
+              <CourseContent course="Programming" courseLink='/courses/programming'  title="C  Programming"  description="Description"  imgLink={require("./assets/cprogramming.png")}  lectureCount="15"  contents={Ccontents}/>}>
+          </Route>
+
           <Route  exact  path="/cpp"  element={
               <CourseContent course="Programming" courseLink='/courses/programming'    title="C++ Programming"  description="Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description "  imgLink={require("./assets/cpp programming.jpg")}  lectureCount="15"  contents={contents}/>}>
           </Route>
-
-          <Route  exact  path="/cprogramming"  element={
-              <CourseContent course="Programming" courseLink='/courses/programming'  title="C  Programming"  description="Description"  imgLink={require("./assets/cprogramming.png")}  lectureCount="15"  contents={contents}/>}>
-          </Route>
-
+          
           <Route  exact  path="/python"  element={
               <CourseContent course="Programming" courseLink='/courses/programming'  title="Python Programming"  description="Description"  imgLink={require("./assets/python.jpg")}  lectureCount="15"  contents={contents}/>}>
           </Route>
