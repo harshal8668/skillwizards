@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import SkillCatalog from "./SkillCatalog";
 import React from "react";
-import { Mentors } from "./About";
 
 function Reasons() {
   return (
@@ -54,21 +53,24 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <h2 className="container" >
-        Meet Our Mentors
-      </h2>
-      <section className="container mentorsHomeContainer mt-3">
-        <Mentors
-          className="mentorsGroupImgContainer"
-          imgClass="homeMentorsImg"
-          imgSrc={require("../assets/mentorsImg.png")}
-        ></Mentors>
 
-        <div className="mentorsGroupImgContainer">
-          <video className="mentorsVideo" controls>
-            <source src={""} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+      <section className=" featured-section py-5">
+        <h2 className="featured-title">Meet Our Mentors</h2>
+        <div className="featured-grid container">
+          <div className="featured-item">
+            <div className="featured-image">
+              <img  src={require("../assets//mentorsImg.png")}  alt="Featured 1"/>
+            </div>
+
+          </div>
+          <div className="featured-item">
+            <div className="featured-image">
+              <video style={{width:'100%'}} className="mentorsVideo" autoPlay controls>
+                <source  src={""} type="video/mp4" />
+              </video>
+
+            </div>
+          </div>
         </div>
       </section>
 

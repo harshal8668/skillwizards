@@ -35,8 +35,8 @@ export function Mentors(props) {
     <span className={props.className}>
       <img className={props.imgClass} src={props.imgSrc} alt="mentors" />
       <p style={{ textDecoration: "underline", textUnderlineOffset: "3px" }}>{props.name}</p>
-      <p>{props.designation}</p>
-      <p>{props.organization}</p>
+      {props.designation && <p>{props.designation}</p>}
+      {props.organization && <p>{props.organization}</p>}
     </span>
   );
 }

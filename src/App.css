@@ -119,32 +119,53 @@ h2 {
 .btn-5:hover::before {
   width: 100%;
 }
-.mentorsHomeContainer {
+
+.featured-section {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+
+}
+.featured-title {
+  text-align: center;
+  font-size: 24px;
+}
+.featured-grid {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
   /* border: 2px solid red; */
 }
+.featured-item {
+  width: calc(43% - 10px);
+  height: auto;
+  /* background-color: white; */
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+  border: 2px solid rgb(173, 170, 170);
+  border-radius:2rem;
+  margin: auto 0;
 
-.homeMentorsImg {
-  width: 100%;
-  border-radius: 15px;
-  padding: 0;
-  margin:0;
 }
 
-.mentorsGroupImgContainer {
-  border: 2px solid grey;
-  border-radius: 20px;
-  padding: 5px;
+.featured-image img{
   width: 100%;
-}
-.mentorsVideo{
-  width: 100%;
-  border-radius: 15px;
-  
-}
+  height: auto;
+  border-radius: 2rem;
+  padding: 1rem;
+  /* border: 2px solid red; */
+
+  }
+  .featured-image video{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 2rem;
+    padding: 1rem;
+  }
+
+/* Home Section */
+
+
 /* SKILL CATALOG */
 .catalog {
   display: grid;
@@ -244,7 +265,6 @@ h2 {
   min-width: 100px;
   max-width: 200px;
 }
-
 
 /* About Design */
 
@@ -556,12 +576,6 @@ h2 {
   }
   .mentorsContainer {
     flex-direction: row;
-  }
-  .mentorsHomeContainer {
-    flex-direction: row;
-  }
-  .mentorsVideo{
-    width: 90%;
   }
 }
 
