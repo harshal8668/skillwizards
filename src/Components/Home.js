@@ -5,7 +5,7 @@ import React from "react";
 function Reasons() {
   return (
     <section className="my-5 container">
-      <h2 className="titles">Why SkillWizards</h2>
+      <h2 className="subHeadings mb-5">Why SkillWizards</h2>
       <div className="container reasonsContainer">
         <div>
           <img
@@ -16,12 +16,28 @@ function Reasons() {
           <p>Physical Learning</p>
         </div>
         <div>
-          <img
+          <img 
             src={require("../assets/quality.png")}
             className="mentorsImg"
             alt="Quality"
           />
           <p>Quality Learning</p>
+        </div>
+        <div>
+          <img
+            src={require("../assets/curriculum.png")}
+            className="mentorsImg"
+            alt="Evaluation"
+          />
+          <p>Advanced Curriculum</p>
+        </div>
+        <div>
+          <img 
+            src={require("../assets/tutor.png")}
+            className="mentorsImg"
+            alt="Evaluation"
+          />
+          <p>Experienced Tutor</p>
         </div>
         <div>
           <img
@@ -36,6 +52,7 @@ function Reasons() {
   );
 }
 export default function Home() {
+  const { courses} = require('../data');
   return (
     <>
       <section className="nicheSection">
@@ -55,17 +72,17 @@ export default function Home() {
       </section>
 
       <section className=" featured-section py-5">
-        <h2 className="featured-title">Meet Our Mentors</h2>
+        <h2 className=" mb-5 subHeadings">Meet Our Mentors</h2>
         <div className="featured-grid container">
           <div className="featured-item">
             <div className="featured-image">
-              <img  src={require("../assets//mentorsImg.png")}  alt="Featured 1"/>
+              <img  src={require("../assets//mentorsImg.png")}  alt="Img"/>
             </div>
-
+ 
           </div>
-          <div className="featured-item">
+          <div className="featured-item video">
             <div className="featured-image">
-              <video style={{width:'100%'}} className="mentorsVideo" autoPlay controls>
+              <video className="mentorsVideo" controls>
                 <source  src={""} type="video/mp4" />
               </video>
 
@@ -74,7 +91,9 @@ export default function Home() {
         </div>
       </section>
 
-      <SkillCatalog></SkillCatalog>
+
+
+      <SkillCatalog courses={courses}></SkillCatalog>
       <Reasons></Reasons>
     </>
   );

@@ -2,6 +2,7 @@ export const courses = [
     {
       title: "Programming Languages",
       id: "programming",
+      iconImg:"https://img.icons8.com/arcade/64/inspect-code.png",
       description: "All programming language courses",
       modules: [
         { name: "C Programming", pathlink: "/cprogramming",imgPath:"https://tinyurl.com/267qj6ow" },
@@ -16,6 +17,7 @@ export const courses = [
       title: "Domain Specific",
       id: "domainspecific",
       description: "All domain specific course",
+      iconImg:"https://img.icons8.com/cotton/64/domain.png",
       modules: [
         { name: "Web Development", pathlink: "/webdevelopment",imgPath:"https://media.istockphoto.com/id/1169873646/vector/programming-web-banner.jpg?s=612x612&w=0&k=20&c=WOqI33qPlnzKdhxjr235ynOw9DYveoeAPPTcw9WfLMY=" },
         { name: "App Development", pathlink: "/appdevelopment",imgPath:"https://media.istockphoto.com/id/1269463789/vector/smartphone-online-data-analysis-and-management-tool-data-analysis-mobile-application.jpg?s=612x612&w=0&k=20&c=nPQcCGqR9EZplJRL7Oun6sHCTZ4t7YOG6Y5LdHu09N4=" },
@@ -28,6 +30,7 @@ export const courses = [
       title: "Foreign Languages",
       id: "foreign",
       description: "All domain specific course",
+      iconImg:"https://img.icons8.com/3d-fluency/94/location.png",
       modules: [
         { name: "Spanish" ,pathlink:'/spanish',imgPath:'https://media.istockphoto.com/id/1453852952/vector/spanish.jpg?s=612x612&w=0&k=20&c=osO54uBF4_OsGvHjbDON15g9lecjS2Jhw7QiaFZjSao='},
         { name: "Chinese" ,pathlink:'/chinese',imgPath:'https://media.istockphoto.com/id/1141685362/vector/chinese.jpg?s=612x612&w=0&k=20&c=dpAdCYZpBAHAmwEdb17r1sLY1UFsmK1Iq931YEIPkBs='},
@@ -41,6 +44,7 @@ export const courses = [
       title: "General Skills",
       id: "generalskill",
       description: "All domain specific course",
+      iconImg:"https://img.icons8.com/arcade/64/sort-by-modified-date.png",
       modules: [
         { name: "MS-Word" ,pathlink:'/word',imgPath:'https://media.istockphoto.com/id/1155112005/vector/microsoft-office-icon.jpg?s=612x612&w=0&k=20&c=iofwzjqQN5hNQ6yIr8GYA1cNR-9KSjy59vavxafv1uc='},
         { name: "MS-Excel",pathlink:'/excel',imgPath:'https://media.istockphoto.com/id/1155111978/vector/microsoft-office-icon.jpg?s=612x612&w=0&k=20&c=YKZRKvmfbjYoun_sNgQEwnCahmvuaCP7yhsq4eEHJqw=' },
@@ -53,6 +57,7 @@ export const courses = [
       title: "21st Century Skills",
       id: "lifeskill",
       description: "All domain specific course",
+      iconImg:"https://img.icons8.com/color/48/meeting.png",
       modules: [
         { name: "Personality Development",pathlink:'',imgPath:'https://media.istockphoto.com/id/911529646/vector/super-businessman.jpg?s=2048x2048&w=is&k=20&c=hrGH08Vqc9IbYHLQXc--6iPuBEnN6PsW-pvoAaGlhGw=' },
         { name: "Communication Skills",pathlink:'',imgPath:'https://media.istockphoto.com/id/1162009708/vector/flat-design-concept-of-meeting-business-presentation-training-annual-report.jpg?s=612x612&w=0&k=20&c=M3o3FJhyLPycL_SrlKLqbcrtJnHgJl4GvruthY4O8ro=' },
@@ -100,3 +105,5 @@ export const vision =
   "Our vision is to nurture a generation of innovative thinkers and leaders who can adapt and thrive in a rapidly changing world.";
 export const mission =
   "Going beyond the traditional academics by providing an inclusive and stimulating educational environment where students develop critical thinking, creativity, and collaborative skills through experiential learning and community engagement. Whole curriculum is designed so their are very less theoretical and more practical based learning which are the most demanding in 21st century.";
+
+  // export const about2="Welcome to **Skill Wizards**! We shape future leaders by equipping them with essential 21st-century skills. Our dynamic learning environment fosters critical thinking, creativity, and collaboration. Beyond academics, we integrate technology, problem-solving, and community engagement. Join our community of curious, resilient, and empathetic learners! 🌟"

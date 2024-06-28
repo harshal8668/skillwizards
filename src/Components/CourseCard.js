@@ -4,8 +4,11 @@ import { Link } from "react-router-dom";
 export default function CourseCard(props) {
   const courses = props.courses;
   const res = courses.map((course) => (
-    <div key={course.title} id={course.id}>
-      <h5>{course.title}</h5>
+    <div className="my-5" key={course.title} id={course.id}>
+      <span className="d-flex">
+        <img className=" me-2" src={course.iconImg} width={40} height={40} alt="" />
+        <h5>{course.title}</h5>
+      </span>
       <div className="d-flex flex-wrap CourseCardContainer mx-auto">
         {course.modules.map((module, index) => (
           <Link key={module.name} to={module.pathlink} className="links">
@@ -41,7 +44,7 @@ export default function CourseCard(props) {
 
 
       <section className="container mt-3">
-        <h2>What We Offer</h2>
+        <h1 className="subHeadings whatWeOffer" >What We Offer</h1>
         <div>{res}</div>
       </section>
     </>

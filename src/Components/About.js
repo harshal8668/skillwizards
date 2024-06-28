@@ -5,8 +5,8 @@ function TagLine() {
     <section style={{ backgroundColor: "beige" }}>
       <div className="TagLineSection">
         <div>
-          <h2> Unleashing Skills</h2>
-          <h2> Creating Wizards</h2>
+          <h1 className="subHeadings"> Unleashing Skills</h1>
+          <h1 className="subHeadings"> Creating Wizards</h1>
         </div>
         <img
           className="aboutLogoImg"
@@ -21,9 +21,9 @@ function TagLine() {
 function AboutSections(props) {
   return (
     <div className="my-5 container">
-      <h2 className="titles">{props.title}</h2>
+      <h2 className="subHeadings">{props.title}</h2>
       <div className={props.className}>
-        <p style={{ textAlign: "justify" }}>{props.content}</p>
+        <p style={{ textAlign: "justify" ,fontSize:'1.3rem',fontWeight:'400'}}>{props.content}</p>
         <img className="sectionImg" src={props.sectionImgSrc} alt="" />
       </div>
     </div>
@@ -65,7 +65,7 @@ export default function About() {
         title="OUR MISSION"
       ></AboutSections>
 
-      <h2 className="titles">OUR MENTORS</h2>
+      <h2 className="subHeadings">OUR MENTORS</h2>
       <section className="mentorsContainer">
         <Mentors
         className="mentorsImgBorder" imgClass="mentorsImg"

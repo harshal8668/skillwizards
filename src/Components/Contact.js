@@ -52,7 +52,7 @@ function ContactForm() {
           </button>
         </form>
 
-        <div style={{color:'green'}}>{result}</div>
+        <div style={{color:'green',fontWeight:'500'}}>{result}</div>
     
     </>
   );
