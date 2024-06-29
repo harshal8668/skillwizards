@@ -5,11 +5,11 @@ export const courses = [
       iconImg:"https://img.icons8.com/arcade/64/inspect-code.png",
       description: "All programming language courses",
       modules: [
-        { name: "C Programming", pathlink: "/cprogramming",imgPath:"https://tinyurl.com/267qj6ow" },
-        { name: "C++ Programming", pathlink: "/cpp" ,imgPath:"https://tinyurl.com/244esgly"},
-        { name: "Python Programming", pathlink: "/python", imgPath:"https://media.licdn.com/dms/image/D5612AQHTGcgR9_RlDg/article-cover_image-shrink_600_2000/0/1705826273539?e=2147483647&v=beta&t=hZkuaC9fOago3ij77UdR45nXktn2C_R9nIwYiEGxVpU"},
-        { name: "Java Programming", pathlink: "/java" ,imgPath:"https://miro.medium.com/v2/resize:fit:640/format:webp/1*tpWdWWENs7rNjSGX2qadNg.png"},
-        { name: "JavaScript Programming", pathlink: "/javascript",imgPath:"https://media.istockphoto.com/id/1492949991/vector/javascript-programming-js-logo-on-blue-binary-background.jpg?s=612x612&w=0&k=20&c=8ULSHmh3ZeAep6qYYsMAlgJH1QRAcA1b3Tt9VdWIsKM=" },
+        { name: "C Programming", pathlink: "/cprogramming",imgPath:"https://image.slidesharecdn.com/c-200424152320/75/C-programming-1-2048.jpg" },
+        { name: "C++ Programming", pathlink: "/cpp" ,imgPath:"https://myneedtolive.com/wp-content/uploads/2020/08/Webp.net-resizeimage.jpg"},
+        { name: "Python Programming", pathlink: "/python", imgPath:"https://cdn.ourcodeworld.com/public-media/articles/articleocw-5c65fbda1ea05.jpg"},
+        { name: "Java Programming", pathlink: "/java" ,imgPath:"https://media.licdn.com/dms/image/D5612AQEbwrBQ8eGYug/article-cover_image-shrink_720_1280/0/1714367817877?e=1724889600&v=beta&t=BDxjDt5GpffC_QPtDG2M2RCHwLxCW6JNr4qcvQBgKRw"},
+        { name: "JavaScript Programming", pathlink: "/javascript",imgPath:"https://www.netburner.com/wp-content/uploads/elementor/thumbs/javascript-qoah3n58fmea9b2nzjdpvnbkjxwi9uj6z2eqrsc2ls.jpg" },
       ],
     },
    
@@ -20,10 +20,10 @@ export const courses = [
       iconImg:"https://img.icons8.com/cotton/64/domain.png",
       modules: [
         { name: "Web Development", pathlink: "/webdevelopment",imgPath:"https://media.istockphoto.com/id/1169873646/vector/programming-web-banner.jpg?s=612x612&w=0&k=20&c=WOqI33qPlnzKdhxjr235ynOw9DYveoeAPPTcw9WfLMY=" },
-        { name: "App Development", pathlink: "/appdevelopment",imgPath:"https://media.istockphoto.com/id/1269463789/vector/smartphone-online-data-analysis-and-management-tool-data-analysis-mobile-application.jpg?s=612x612&w=0&k=20&c=nPQcCGqR9EZplJRL7Oun6sHCTZ4t7YOG6Y5LdHu09N4=" },
+        { name: "App Development", pathlink: "/appdevelopment",imgPath:"https://5.imimg.com/data5/SELLER/Default/2024/1/377426086/LE/HB/WG/210219955/android-application-development-services-500x500.jpeg" },
         { name: "Game Development", pathlink: "/gamedevelopment",imgPath:"https://media.istockphoto.com/id/1256473398/vector/kids-learning-to-coding-programming-in-online-it-school-engineering-courses-in-internet-for.jpg?s=612x612&w=0&k=20&c=oeUkdgXcTJp-r32NuJ1oUYNaXx9cTHqBY2KX0YXUeNw=" },
         { name: "Robotics & IoT", pathlink: "/roboticsiot" ,imgPath:"https://media.istockphoto.com/id/1070984040/vector/industry-4-0-robot-with-ai-control-production-line-on-factory-robotics-arms.jpg?s=612x612&w=0&k=20&c=M1ejem8105g3CzNpzzIhkmsFYnjVO84p-WeivqCfR8M="},
-        { name: "Database Management", pathlink: "/cpp",imgPath:"https://media.istockphoto.com/id/1216332344/vector/vector-black-line-concept-of-internet-technology-dbms.jpg?s=612x612&w=0&k=20&c=dAxWRcLHj59Ab3xZHct_tXihMgZ_itgmO3aK4sFPp-M=" },
+        { name: "Database Management", pathlink: "/dbms",imgPath:"https://media.istockphoto.com/id/1216332344/vector/vector-black-line-concept-of-internet-technology-dbms.jpg?s=612x612&w=0&k=20&c=dAxWRcLHj59Ab3xZHct_tXihMgZ_itgmO3aK4sFPp-M=" },
       ],
     },
     {
@@ -32,12 +32,12 @@ export const courses = [
       description: "All domain specific course",
       iconImg:"https://img.icons8.com/3d-fluency/94/location.png",
       modules: [
-        { name: "Spanish" ,pathlink:'/spanish',imgPath:'https://media.istockphoto.com/id/1453852952/vector/spanish.jpg?s=612x612&w=0&k=20&c=osO54uBF4_OsGvHjbDON15g9lecjS2Jhw7QiaFZjSao='},
-        { name: "Chinese" ,pathlink:'/chinese',imgPath:'https://media.istockphoto.com/id/1141685362/vector/chinese.jpg?s=612x612&w=0&k=20&c=dpAdCYZpBAHAmwEdb17r1sLY1UFsmK1Iq931YEIPkBs='},
-        { name: "French" ,pathlink:'/french',imgPath:'https://media.istockphoto.com/id/1079735964/vector/french-open-book-with-language-hand-drawn-doodles-and-lettering.jpg?s=612x612&w=0&k=20&c=CY0MTKxg5r6wl5rBheTRz7QqN4aSB3YoFumCOSQoqIo='},
-        { name: "Italian" ,pathlink:'/italian',imgPath:'https://media.istockphoto.com/id/1134706250/vector/italian-hand-drawn-doodles-and-lettering.jpg?s=612x612&w=0&k=20&c=RETVPeB-DHgJaf93QL76Wxqbt1XTaNzK5VjJSuKyH70='},
-        { name: "Japanese" ,pathlink:'/japanese',imgPath:'https://media.istockphoto.com/id/1404377420/vector/learn-japanese-template.jpg?s=612x612&w=0&k=20&c=4p-Lkqqj2oqOg6sxXik5VXh9GVDzqZAtY6SXmEZLgGU='},
-        { name: "German" ,pathlink:'/german',imgPath:'https://media.istockphoto.com/id/1096979810/vector/german-hand-drawn-doodles-and-lettering.jpg?s=2048x2048&w=is&k=20&c=9BKEcjhHMifK-AamvsXX5Om8_ljNHcy4aDQFPIoez1Y='},
+        { name: "Spanish" ,pathlink:'/spanish',imgPath:'https://assets.website-files.com/5f3d3713427af43e4ebfd076/629e3d602494caf0b1446489_0610_Teaching-Spanish_Hero_3.jpg '},
+        { name: "Chinese" ,pathlink:'/chinese',imgPath:'https://t4.ftcdn.net/jpg/01/82/18/29/240_F_182182936_ohV2Lec20xosrwjV3kIkdemDFy17JZ9y.jpg'},
+        { name: "French" ,pathlink:'/french',imgPath:'https://cdn.ila-france.com/wp-content/uploads/2018/01/Learn-French-Comprehension.jpg'},
+        { name: "Italian" ,pathlink:'/italian',imgPath:'https://www.cosmolingua.in/wp-content/uploads/2023/01/Learn-Italian.jpg'},
+        { name: "Japanese" ,pathlink:'/japanese',imgPath:'https://www.cosmolingua.in/wp-content/uploads/2023/01/Learn-Japanese.jpg'},
+        { name: "German" ,pathlink:'/german',imgPath:'https://www.cosmolingua.in/wp-content/uploads/2023/01/Learn-German.jpg'},
       ],
     },
     {
@@ -46,11 +46,11 @@ export const courses = [
       description: "All domain specific course",
       iconImg:"https://img.icons8.com/arcade/64/sort-by-modified-date.png",
       modules: [
-        { name: "MS-Word" ,pathlink:'/word',imgPath:'https://media.istockphoto.com/id/1155112005/vector/microsoft-office-icon.jpg?s=612x612&w=0&k=20&c=iofwzjqQN5hNQ6yIr8GYA1cNR-9KSjy59vavxafv1uc='},
-        { name: "MS-Excel",pathlink:'/excel',imgPath:'https://media.istockphoto.com/id/1155111978/vector/microsoft-office-icon.jpg?s=612x612&w=0&k=20&c=YKZRKvmfbjYoun_sNgQEwnCahmvuaCP7yhsq4eEHJqw=' },
-        { name: "MS-Powerpoint" ,pathlink:'/powerpoint',imgPath:'https://media.istockphoto.com/id/1155112000/vector/microsoft-office-icon.jpg?s=612x612&w=0&k=20&c=qaaPloNPLqpGQa4EJGLsFZPzz2T4w3E4GR88Zse6NJs='},
-        { name: "Canva",pathlink:'/canva',imgPath:'https://res-academy.cache.wpscdn.com/images/seo_posts/20231103/ba9605ac7b8f7b38b585106817bd3b2b.png' },
-        { name: "Photoshop",pathlink:'/photoshop',imgPath:'https://www.waca.associates/en/wp-content/uploads/2021/02/photoshop-history-860x573.jpg' },
+        { name: "MS-Word" ,pathlink:'',imgPath:'https://www.pcworld.com/wp-content/uploads/2023/11/microsoft-word-logo.jpg?resize=1240%2C826&quality=50&strip=all'},
+        { name: "MS-Excel",pathlink:'',imgPath:'https://assets.entrepreneur.com/content/3x2/2000/20191218181212-Ent-Excel.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380' },
+        { name: "MS-Powerpoint" ,pathlink:'',imgPath:'https://media.idownloadblog.com/wp-content/uploads/2022/04/Microsoft-Powerpoint.png'},
+        { name: "Canva",pathlink:'',imgPath:'https://res-academy.cache.wpscdn.com/images/seo_posts/20231103/ba9605ac7b8f7b38b585106817bd3b2b.png' },
+        { name: "Photoshop",pathlink:'',imgPath:'https://www.waca.associates/en/wp-content/uploads/2021/02/photoshop-history-860x573.jpg' },
       ],
     },
     {
@@ -61,7 +61,7 @@ export const courses = [
       modules: [
         { name: "Personality Development",pathlink:'',imgPath:'https://media.istockphoto.com/id/911529646/vector/super-businessman.jpg?s=2048x2048&w=is&k=20&c=hrGH08Vqc9IbYHLQXc--6iPuBEnN6PsW-pvoAaGlhGw=' },
         { name: "Communication Skills",pathlink:'',imgPath:'https://media.istockphoto.com/id/1162009708/vector/flat-design-concept-of-meeting-business-presentation-training-annual-report.jpg?s=612x612&w=0&k=20&c=M3o3FJhyLPycL_SrlKLqbcrtJnHgJl4GvruthY4O8ro=' },
-        { name: "Abacus",pathlink:'',imgPath:'https://media.istockphoto.com/id/1266190051/vector/abacus-soroban-for-learning-mental-arithmetic-for-kids-concept-of-illustration-of-the.jpg?s=612x612&w=0&k=20&c=HRfOGapf76tr_Nf375dypRQ9tuQgsvFcg-ZAIgyJVuU=' },
+        { name: "Abacus",pathlink:'',imgPath:'https://static.vecteezy.com/system/resources/previews/000/292/483/original/an-african-kid-learning-abacus-vector.jpg ' },
         { name: "Vedic Maths",pathlink:'',imgPath:'https://media.istockphoto.com/id/1045662318/vector/the-pi-symbol-mathematical-constant-irrational-number-greek-letter-and-many-formulas.jpg?s=612x612&w=0&k=20&c=lEnY5FBnFRMvOMKZ5mawoLg9X-tgLCifVdRtcKr1Np4=' },
         { name: "Critical Thinking" ,pathlink:'',imgPath:'https://media.istockphoto.com/id/1139877453/vector/artificial-intelligence-learning.jpg?s=612x612&w=0&k=20&c=VQ-Aa8M52Mwhc8fmuERpfpA8S1f5Qf8V3ohBOU9qImc='},
       ],
@@ -69,28 +69,146 @@ export const courses = [
   ];
 
 
-export const contents={
+export const programmingContents={
+    c:{
+    description:"About Course DESCRIPTION",
+    modules:[
+      {title:'Basic', description:'Description'},
+      {title:'Loops & Conditional statements', description:'Description'},
+      {title:'Functions & Pointers', description:'Description'},
+      {title:'Object Oriented Programming', description:'Description'},
+      {title:'Advance Concepts', description:'Description'},
+      {title:'Final Projects', description:'Description'},
+      {title:'Project Submission and Examination', description:'Description'},
+    ]},
+javascript:{
   description:"DESCRIPTION",
   modules:[
-    {title:'Basic', description:'Description'},
-    {title:'Loops & Conditional statements', description:'Description'},
-    {title:'Functions & Pointers', description:'Description'},
-    {title:'Object Oriented Programming', description:'Description'},
-    {title:'Advance Concepts', description:'Description'},
-    {title:'Final Projects', description:'Description'},
-  ]};
+    {class:"Module 1",title:'Basic', description:'Description'},
+    {class:"Module 2",title:'Loops & Conditional statements', description:'Description'},
+    {class:"Module 3",title:'Functions & Pointers', description:'Description'},
+    {class:"Module 4",title:'Object Oriented Programming', description:'Description'},
+    {class:"Module 5",title:'Advance Concepts', description:'Description'},
+    {class:"Module 6",title:'Final Projects', description:'Description'},
+    {title:'Project Submission and Examination', description:'Description'},
+  ]},
+}
 
- export const Ccontents={
-  description:"About Course DESCRIPTION",
-  modules:[
-    {title:'Basic', description:'Description'},
-    {title:'Loops & Conditional statements', description:'Description'},
-    {title:'Functions & Pointers', description:'Description'},
-    {title:'Object Oriented Programming', description:'Description'},
-    {title:'Advance Concepts', description:'Description'},
-    {title:'Final Projects', description:'Description'},
-  ]};
 
+ export const domainspecificContent={
+  webContent:{
+    description:"About Course DESCRIPTION",
+    modules:[
+      {title:'HTML', description:'Description'},
+      {title:'CSS', description:'Description'},
+      {title:'Basic JavaScript', description:'Description'},
+      {title:'BOM and DOM', description:'Description'},
+      {title:'Final Projects', description:'Description'},
+      {title:'Project Submission and Examination', description:'Description'},
+    ]},
+    appContent:{
+      description:"About Course DESCRIPTION",
+      modules:[
+        {title:'Basic Java Programming', description:'Description'},
+        {title:'Java/Kotlin for App Development', description:'Description'},
+        {title:'Android Studio for App Development', description:'Description'},
+        {title:'Final Projects', description:'Description'},
+        {title:'Project Submission and Examination', description:'Description'},
+      ]},
+      gameContent:{
+        description:"About Course DESCRIPTION",
+        modules:[
+          {title:'Basic C++ Programming', description:'Description'},
+          {title:'2D/3D Graphics for Game Development', description:'Description'},
+          {title:'Animations', description:'Description'},
+          {title:'Final Projects', description:'Description'},
+          {title:'Project Submission and Examination', description:'Description'},
+        ]},
+        roboticsContent:{
+          description:"About Course DESCRIPTION",
+          modules:[
+            {title:'Introduction to IoT & Robotics', description:'Description'},
+            {title:'Sensors and Microcontrollers', description:'Description'},
+            {title:'MicroController programming', description:'Description'},
+            {title:'Integration of Hardware and Software', description:'Description'},
+            {title:'Final Projects', description:'Description'},
+            {title:'Project Submission and Examination', description:'Description'},
+          ]},
+        dbms:{
+          description:"About Course DESCRIPTION",
+          modules:[
+            {title:'Introduction to DBMS', description:'Description'},
+            {title:'SQL Language', description:'Description'},
+            {title:'CRUD Operation', description:'Description'},
+            {title:'Intergartion with frontend', description:'Description'},
+            {title:'Final Project', description:'Description'},
+            {title:'Project Submission and Examination', description:'Description'},
+          ]},
+ }
+ 
+
+ export const foreignLanguageContent={
+  germanContent:{
+    description:"About Course DESCRIPTION",
+    modules:[
+      {title:'Introduction to German Language', description:'Description'},
+      {title:'Numbers and Day-Date-Time', description:'Description'},
+      {title:'Food, Vegetables, Fruits and Drinks', description:'Description'},
+      {title:'Sizes and Prices', description:'Description'},
+      {title:'Forming Sentences', description:'Description'},
+      {title:'Examination', description:'Description'},
+    ]},
+    italianContent:{
+      description:"About Course DESCRIPTION",
+      modules:[
+        {title:'Introduction to Italian Language', description:'Description'},
+        {title:'Numbers and Day-Date-Time', description:'Description'},
+        {title:'Food, Vegetables, Fruits and Drinks', description:'Description'},
+        {title:'Sizes and Prices', description:'Description'},
+        {title:'Forming Sentences', description:'Description'},
+        {title:'Examination', description:'Description'},
+      ]},
+      spanishContent:{
+        description:"About Course DESCRIPTION",
+        modules:[
+          {title:'Introduction to Spanish Language', description:'Description'},
+          {title:'Numbers and Day-Date-Time', description:'Description'},
+          {title:'Food, Vegetables, Fruits and Drinks', description:'Description'},
+          {title:'Sizes and Prices', description:'Description'},
+          {title:'Forming Sentences', description:'Description'},
+          {title:'Examination', description:'Description'},
+        ]},
+        chineseContent:{
+          description:"About Course DESCRIPTION",
+          modules:[
+            {title:'Introduction to Chinese Language', description:'Description'},
+            {title:'Numbers and Day-Date-Time', description:'Description'},
+            {title:'Food, Vegetables, Fruits and Drinks', description:'Description'},
+            {title:'Sizes and Prices', description:'Description'},
+            {title:'Forming Sentences', description:'Description'},
+            {title:'Examination', description:'Description'},
+          ]},
+          frenchContent:{
+            description:"About Course DESCRIPTION",
+            modules:[
+              {title:'Introduction to French Language', description:'Description'},
+              {title:'Numbers and Day-Date-Time', description:'Description'},
+              {title:'Food, Vegetables, Fruits and Drinks', description:'Description'},
+              {title:'Sizes and Prices', description:'Description'},
+              {title:'Forming Sentences', description:'Description'},
+              {title:'Examination', description:'Description'},
+            ]},
+            japaneseContent:{
+              description:"About Course DESCRIPTION",
+              modules:[
+                {title:'Introduction to Japanese Language', description:'Description'},
+                {title:'Numbers and Day-Date-Time', description:'Description'},
+                {title:'Food, Vegetables, Fruits and Drinks', description:'Description'},
+                {title:'Sizes and Prices', description:'Description'},
+                {title:'Forming Sentences', description:'Description'},
+                {title:'Examination', description:'Description'},
+              ]},
+ }
 
 export const mentors = [
   {name:"Dr. L. B. Damahe", designation:"Head of Department", organization:"Professor",img: "/assets/lalitSir.jpeg",},

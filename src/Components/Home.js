@@ -1,6 +1,13 @@
 import { Link } from "react-router-dom";
 import SkillCatalog from "./SkillCatalog";
 import React from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-cards';
+import {Autoplay, EffectCards } from 'swiper/modules';
 
 function Reasons() {
   return (
@@ -45,7 +52,7 @@ function Reasons() {
             className="mentorsImg"
             alt="Evaluation"
           />
-          <p>Pocket Friendly</p>
+          <p>Affordable</p>
         </div>
       </div>
     </section>
@@ -69,6 +76,23 @@ export default function Home() {
             </button>
           </Link>
         </div>
+        <Swiper
+        effect={'cards'}
+        grabCursor={false}
+        autoplay={{
+          delay: 1000,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay,EffectCards]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          {/* <img src="/vite.svg" alt="" /> */}
+        </SwiperSlide>
+        <SwiperSlide></SwiperSlide>
+        <SwiperSlide></SwiperSlide>
+      </Swiper>
+
       </section>
 
       <section className=" featured-section py-5">

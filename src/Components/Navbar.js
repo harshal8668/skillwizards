@@ -62,6 +62,7 @@ export default function Navbar() {
                 <NavItem className="dropdown-item" title="General Skills" linkTo="/courses/generalskill"></NavItem>
               </ul>
             </li>
+            <NavItem className="nav-link" title="Certificate" linkTo="/about"></NavItem>
 
           </ul>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 function TagLine() {
   return (
-    <section style={{ backgroundColor: "beige" }}>
+    <section style={{ background: "linear-gradient(to bottom right, pink, white 50%, lightblue);" }}>
       <div className="TagLineSection">
         <div>
           <h1 className="subHeadings"> Unleashing Skills</h1>
