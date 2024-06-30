@@ -220,7 +220,7 @@ javascript:{
 
  export const foreignLanguageContent={
   germanContent:{
-    description:"About Course DESCRIPTION",
+    description:"Hallo!!! Welcome to Germany.",
     grades:'5th - 10th Std ',
     lectureCount:'15',
     modules:[
@@ -232,7 +232,7 @@ javascript:{
       {title:'Examination', description:'Description'},
     ]},
     italianContent:{
-      description:"About Course DESCRIPTION",
+      description:"Ciao!!! Welcome to Italy.",
       grades:'5th - 10th Std ',
       lectureCount:'15',
       modules:[
@@ -244,7 +244,7 @@ javascript:{
         {title:'Examination', description:'Description'},
       ]},
       spanishContent:{
-        description:"About Course DESCRIPTION",
+        description:"Hola!!! Welcome to Spain.",
         grades:'5th - 10th Std ',
         lectureCount:'15',
         modules:[
@@ -256,7 +256,7 @@ javascript:{
           {title:'Examination', description:'Description'},
         ]},
         chineseContent:{
-          description:"About Course DESCRIPTION",
+          description:"嗨!!! Welcome to China.",
           grades:'5th - 10th Std ',
           lectureCount:'15',
           modules:[
@@ -268,7 +268,7 @@ javascript:{
             {title:'Examination', description:'Description'},
           ]},
           frenchContent:{
-            description:"About Course DESCRIPTION",
+            description:"Salut!!! Welcome to France.",
             grades:'5th - 10th Std ',
             lectureCount:'15',
             modules:[
@@ -280,7 +280,7 @@ javascript:{
               {title:'Examination', description:'Description'},
             ]},
             japaneseContent:{
-              description:"About Course DESCRIPTION",
+              description:"こんにちは!!! Welcome to Japan.",
               grades:'5th - 10th Std ',
               lectureCount:'15',
               modules:[

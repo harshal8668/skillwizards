@@ -28,38 +28,38 @@ function App() {
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/about" element={<About />}></Route>
 
-          <Route
+          <Route key={1}
             exact
             path="/courses"
             element={<CourseCard courses={courses} />}
           ></Route>
-          <Route
+          <Route key={2}
             exact
             path="/courses/programming"
             element={<CourseCard courses={programmingCatalog} />}
           ></Route>
-          <Route
+          <Route key={3}
             exact
             path="/courses/domainspecific"
             element={<CourseCard courses={domainCatalog} />}
           ></Route>
-          <Route
+          <Route key={4}
             exact
             path="/courses/foreignlanguages"
             element={<CourseCard courses={foreignCatalog} />}
           ></Route>
-          <Route
+          <Route key={5}
             exact
             path="/courses/lifeskill"
             element={<CourseCard courses={lifeCatalog} />}
           ></Route>
-          <Route
+          <Route key={6}
             exact
             path="/courses/generalskill"
             element={<CourseCard courses={generalCatalog} />}
           ></Route>
 
-          <Route
+          <Route key={7}
             exact
             path="/cprogramming"
             element={
@@ -74,7 +74,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={8}
             exact
             path="/cpp"
             element={
@@ -89,7 +89,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={9}
             exact
             path="/python"
             element={
@@ -104,7 +104,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={10}
             exact
             path="/java"
             element={
@@ -112,14 +112,14 @@ function App() {
                 course="Programming"
                 courseLink="/courses/programming"
                 title="Java Programming"
-                imgLink="https://media.licdn.com/dms/image/D5612AQEbwrBQ8eGYug/article-cover_image-shrink_720_1280/0/1714367817877?e=1724889600&v=beta&t=BDxjDt5GpffC_QPtDG2M2RCHwLxCW6JNr4qcvQBgKRw"
+                imgLink="https://tinyurl.com/2g8935d2"
                 lectureCount="15"
                 contents={programmingContents.java}
               />
             }
           ></Route>
 
-          <Route
+          <Route key={11}
             exact
             path="/javascript"
             element={
@@ -134,7 +134,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={12}
             exact
             path="/webdevelopment"
             element={
@@ -150,7 +150,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={13}
             exact
             path="/appdevelopment"
             element={
@@ -165,7 +165,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={14}
             exact
             path="/gamedevelopment"
             element={
@@ -180,7 +180,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={15}
             exact
             path="/roboticsiot"
             element={
@@ -195,7 +195,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={16}
             exact
             path="/dbms"
             element={
@@ -210,7 +210,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={17}
             exact
             path="/french"
             element={
@@ -225,7 +225,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={18}
             exact
             path="/german"
             element={
@@ -240,7 +240,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={19}
             exact
             path="/spanish"
             element={
@@ -255,7 +255,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={20}
             exact
             path="/chinese"
             element={
@@ -270,7 +270,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={21}
             exact
             path="/japanese"
             element={
@@ -285,7 +285,7 @@ function App() {
             }
           ></Route>
 
-          <Route
+          <Route key={22}
             exact
             path="/italian"
             element={
