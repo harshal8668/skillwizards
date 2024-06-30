@@ -41,7 +41,7 @@ export default function CourseContent(props) {
     </div>
 
     <div className="container pb-3 mt-4">
-    <h5>Course Structure</h5>
+    <h4 className="mb-4">Course Structure</h4>
     <ul>
     {result}
     </ul>

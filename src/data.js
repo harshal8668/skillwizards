@@ -1,22 +1,5 @@
 export const courses = [
-    {
-      title: "Junior's Special [Std 1st - 4th]",
-      id: "nocodedevelopment",
-      iconImg:"https://img.icons8.com/fluency/48/children.png",
-      description: "All programming language courses",
-      modules: [
-        { name: "No-Code Development", pathlink: "",imgPath:"https://www.shutterstock.com/image-vector/no-code-banner-vector-concept-260nw-1932625211.jpg " },
-        { name: "Abacus", pathlink: "" ,imgPath:"https://static.vecteezy.com/system/resources/previews/000/292/483/original/an-african-kid-learning-abacus-vector.jpg"},
-        { name: "Vedic Maths", pathlink: "", imgPath:"https://media.istockphoto.com/id/1045662318/vector/the-pi-symbol-mathematical-constant-irrational-number-greek-letter-and-many-formulas.jpg?s=612x612&w=0&k=20&c=lEnY5FBnFRMvOMKZ5mawoLg9X-tgLCifVdRtcKr1Np4="},
-        { name: "Critical Thinking" ,pathlink:'',imgPath:'https://media.istockphoto.com/id/1139877453/vector/artificial-intelligence-learning.jpg?s=612x612&w=0&k=20&c=VQ-Aa8M52Mwhc8fmuERpfpA8S1f5Qf8V3ohBOU9qImc='},
-        { name: "MS-Word" ,pathlink:'',imgPath:'https://www.pcworld.com/wp-content/uploads/2023/11/microsoft-word-logo.jpg?resize=1240%2C826&quality=50&strip=all'},
-        { name: "MS-Excel",pathlink:'',imgPath:'https://assets.entrepreneur.com/content/3x2/2000/20191218181212-Ent-Excel.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380' },
-        { name: "MS-Powerpoint" ,pathlink:'',imgPath:'https://media.idownloadblog.com/wp-content/uploads/2022/04/Microsoft-Powerpoint.png'},
-        { name: "Canva",pathlink:'',imgPath:'https://res-academy.cache.wpscdn.com/images/seo_posts/20231103/ba9605ac7b8f7b38b585106817bd3b2b.png' },
-        { name: "Photoshop",pathlink:'',imgPath:'https://www.waca.associates/en/wp-content/uploads/2021/02/photoshop-history-860x573.jpg' },
-      ],
-      
-    },
+    
     {
       title: "Programming Languages",
       id: "programming",
@@ -83,6 +66,24 @@ export const courses = [
         { name: "Vedic Maths",pathlink:'',imgPath:'https://media.istockphoto.com/id/1045662318/vector/the-pi-symbol-mathematical-constant-irrational-number-greek-letter-and-many-formulas.jpg?s=612x612&w=0&k=20&c=lEnY5FBnFRMvOMKZ5mawoLg9X-tgLCifVdRtcKr1Np4=' },
         { name: "Critical Thinking" ,pathlink:'',imgPath:'https://media.istockphoto.com/id/1139877453/vector/artificial-intelligence-learning.jpg?s=612x612&w=0&k=20&c=VQ-Aa8M52Mwhc8fmuERpfpA8S1f5Qf8V3ohBOU9qImc='},
       ],
+    },
+    {
+      title: "Junior's Special [Std 1st - 4th]",
+      id: "nocodedevelopment",
+      iconImg:"https://img.icons8.com/fluency/48/children.png",
+      description: "All programming language courses",
+      modules: [
+        { name: "No-Code Development", pathlink: "",imgPath:"https://www.shutterstock.com/image-vector/no-code-banner-vector-concept-260nw-1932625211.jpg " },
+        { name: "Abacus", pathlink: "" ,imgPath:"https://static.vecteezy.com/system/resources/previews/000/292/483/original/an-african-kid-learning-abacus-vector.jpg"},
+        { name: "Vedic Maths", pathlink: "", imgPath:"https://media.istockphoto.com/id/1045662318/vector/the-pi-symbol-mathematical-constant-irrational-number-greek-letter-and-many-formulas.jpg?s=612x612&w=0&k=20&c=lEnY5FBnFRMvOMKZ5mawoLg9X-tgLCifVdRtcKr1Np4="},
+        { name: "Critical Thinking" ,pathlink:'',imgPath:'https://media.istockphoto.com/id/1139877453/vector/artificial-intelligence-learning.jpg?s=612x612&w=0&k=20&c=VQ-Aa8M52Mwhc8fmuERpfpA8S1f5Qf8V3ohBOU9qImc='},
+        { name: "MS-Word" ,pathlink:'',imgPath:'https://www.pcworld.com/wp-content/uploads/2023/11/microsoft-word-logo.jpg?resize=1240%2C826&quality=50&strip=all'},
+        { name: "MS-Excel",pathlink:'',imgPath:'https://assets.entrepreneur.com/content/3x2/2000/20191218181212-Ent-Excel.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380' },
+        { name: "MS-Powerpoint" ,pathlink:'',imgPath:'https://media.idownloadblog.com/wp-content/uploads/2022/04/Microsoft-Powerpoint.png'},
+        { name: "Canva",pathlink:'',imgPath:'https://res-academy.cache.wpscdn.com/images/seo_posts/20231103/ba9605ac7b8f7b38b585106817bd3b2b.png' },
+        { name: "Photoshop",pathlink:'',imgPath:'https://www.waca.associates/en/wp-content/uploads/2021/02/photoshop-history-860x573.jpg' },
+      ],
+      
     },
   ];
 
@@ -158,7 +159,7 @@ javascript:{
 
  export const domainspecificContent={
   webContent:{
-    description:"About Course DESCRIPTION",
+    description:"Transform your web development skills with our immersive Web Development Bootcamp. This course is designed to take you from a novice to a proficient web developer, covering all the essential tools and technologies required to build modern, responsive websites and web applications.",
     grades:'5th - 10th Std ',
     lectureCount:'15',
     modules:[
@@ -170,7 +171,7 @@ javascript:{
       {title:'Project Submission and Examination', description:'Description'},
     ]},
     appContent:{
-      description:"About Course DESCRIPTION",
+      description:"Transform your App development skills with our immersive App Development Bootcamp. This course is designed to take you from a novice to a proficient App developer, covering all the essential tools and technologies required to build modern, responsive applications.",
       grades:'5th - 10th Std ',
       lectureCount:'15',
       modules:[
@@ -181,7 +182,7 @@ javascript:{
         {title:'Project Submission and Examination', description:'Description'},
       ]},
       gameContent:{
-        description:"About Course DESCRIPTION",
+        description:"Transform your Game development skills with our immersive Game Development Bootcamp. This course is designed to take you from a novice to a proficient Game developer, covering all the essential tools and technologies required to build modern, responsive game applications.",
         grades:'5th - 10th Std ',
         lectureCount:'15',
         modules:[
@@ -192,7 +193,7 @@ javascript:{
           {title:'Project Submission and Examination', description:'Description'},
         ]},
         roboticsContent:{
-          description:"About Course DESCRIPTION",
+          description:"Transform your web development skills with our immersive Robotics and Internet of Things Bootcamp. This course is designed to take you from a novice to a proficient robotics and iot developer, covering all the essential tools and technologies required to build modern products.",
           grades:'5th - 10th Std ',
           lectureCount:'15',
           modules:[
@@ -204,7 +205,7 @@ javascript:{
             {title:'Project Submission and Examination', description:'Description'},
           ]},
         dbms:{
-          description:"About Course DESCRIPTION",
+          description:"Transform your Database Management skills with our immersive DBMS Bootcamp. This course is designed to take you from a novice to a proficient Database Manager or Administrator, covering all the essential tools and technologies required to build modern, databases.",
           grades:'5th - 10th Std ',
           lectureCount:'15',
           modules:[

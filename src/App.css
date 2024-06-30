@@ -637,7 +637,7 @@ font-weight: bold;
   }
   .footer__content span {
     flex-direction: column;
-  }
+  } 
   .tagline1,.tagline2{
       font-size: 2rem;
     }
