@@ -143,7 +143,7 @@ function App() {
                 courseLink="/courses/domainspecific"
                 title="Web Developement"
                 description="Description about web development what it is "
-                imgLink="https://tinyurl.com/29yndpsl"
+                imgLink="https://media.istockphoto.com/id/1169873646/vector/programming-web-banner.jpg?s=612x612&w=0&k=20&c=WOqI33qPlnzKdhxjr235ynOw9DYveoeAPPTcw9WfLMY="
                 lectureCount="15"
                 contents={domainspecificContent.webContent}
               />

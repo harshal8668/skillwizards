@@ -106,8 +106,8 @@ export default function Home() {
           </div>
           <div className="featured-item video">
             <div className="featured-image">
-              <video className="mentorsVideo" controls>
-                <source  src={""} type="video/mp4" />
+              <video className="mentorsVideo" controls autoPlay muted>
+                <source  src={require('../assets/video.mp4')} type="video/mp4" />
               </video>
 
             </div>

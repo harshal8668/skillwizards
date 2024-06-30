@@ -12,7 +12,7 @@ export default function CourseCard(props) {
       <div className="d-flex flex-wrap CourseCardContainer mx-auto">
         {course.modules.map((module, index) => (
           <Link key={module.name} to={module.pathlink} className="links">
-            <div className="card m-2" style={{ width: "15rem" }}>
+            <div className="card m-2" style={{ width: "15rem", height:'15rem' }}>
               <img
                 src={module.imgPath}
                 alt="img"

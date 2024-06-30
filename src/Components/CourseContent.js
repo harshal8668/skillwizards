@@ -21,7 +21,7 @@ export default function CourseContent(props) {
     <div className="container courseContent">
       <h3 className="my-3">{props.title}</h3>
       <div className="courseSubContent">
-        <img src={props.imgLink} alt="Img" />
+        <img  src={props.imgLink} alt="Img"/>
         <div>
           <h4 className="my-3">About Course</h4>
           <p>{props.contents.description}</p>
