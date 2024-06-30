@@ -2,19 +2,19 @@ import React from "react";
 
 function TagLine() {
   return (
-    <section style={{ background: "linear-gradient(to bottom right, pink, white 50%, lightblue);" }}>
-      <div className="TagLineSection">
+    
+      <section className="TagLineSection ">
         <div>
-          <h1 className="subHeadings"> Unleashing Skills</h1>
-          <h1 className="subHeadings"> Creating Wizards</h1>
+          <h1 className="subHeadings tagline1"> Unleashing Skills</h1>
+          <h1 className="subHeadings tagline2"> Creating Wizards</h1>
         </div>
         <img
-          className="aboutLogoImg"
+          className="aboutLogoImg my-3"
           src={require("../assets/Logo.jpg")}
           alt="Logo"
         />
-      </div>
-    </section>
+      </section>
+    
   );
 }
 

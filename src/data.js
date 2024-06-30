@@ -1,5 +1,23 @@
 export const courses = [
     {
+      title: "Junior's Special [Std 1st - 4th]",
+      id: "nocodedevelopment",
+      iconImg:"https://img.icons8.com/fluency/48/children.png",
+      description: "All programming language courses",
+      modules: [
+        { name: "No-Code Development", pathlink: "",imgPath:"https://www.shutterstock.com/image-vector/no-code-banner-vector-concept-260nw-1932625211.jpg " },
+        { name: "Abacus", pathlink: "" ,imgPath:"https://static.vecteezy.com/system/resources/previews/000/292/483/original/an-african-kid-learning-abacus-vector.jpg"},
+        { name: "Vedic Maths", pathlink: "", imgPath:"https://media.istockphoto.com/id/1045662318/vector/the-pi-symbol-mathematical-constant-irrational-number-greek-letter-and-many-formulas.jpg?s=612x612&w=0&k=20&c=lEnY5FBnFRMvOMKZ5mawoLg9X-tgLCifVdRtcKr1Np4="},
+        { name: "Critical Thinking" ,pathlink:'',imgPath:'https://media.istockphoto.com/id/1139877453/vector/artificial-intelligence-learning.jpg?s=612x612&w=0&k=20&c=VQ-Aa8M52Mwhc8fmuERpfpA8S1f5Qf8V3ohBOU9qImc='},
+        { name: "MS-Word" ,pathlink:'',imgPath:'https://www.pcworld.com/wp-content/uploads/2023/11/microsoft-word-logo.jpg?resize=1240%2C826&quality=50&strip=all'},
+        { name: "MS-Excel",pathlink:'',imgPath:'https://assets.entrepreneur.com/content/3x2/2000/20191218181212-Ent-Excel.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380' },
+        { name: "MS-Powerpoint" ,pathlink:'',imgPath:'https://media.idownloadblog.com/wp-content/uploads/2022/04/Microsoft-Powerpoint.png'},
+        { name: "Canva",pathlink:'',imgPath:'https://res-academy.cache.wpscdn.com/images/seo_posts/20231103/ba9605ac7b8f7b38b585106817bd3b2b.png' },
+        { name: "Photoshop",pathlink:'',imgPath:'https://www.waca.associates/en/wp-content/uploads/2021/02/photoshop-history-860x573.jpg' },
+      ],
+      
+    },
+    {
       title: "Programming Languages",
       id: "programming",
       iconImg:"https://img.icons8.com/arcade/64/inspect-code.png",
@@ -71,7 +89,48 @@ export const courses = [
 
 export const programmingContents={
     c:{
-    description:"About Course DESCRIPTION",
+    description:"Dive into the world of C programming with our comprehensive course designed for both beginners and intermediate learners. This course covers everything from the basics of C syntax to advanced programming techniques.",
+    grades:'5th - 10th Std ',
+    lectureCount:'15',
+    modules:[
+      {title:'Basic', description:'Description'},
+      {title:'Loops & Conditional statements', description:'Description'},
+      {title:'Functions & Pointers', description:'Description'},
+      {title:'Object Oriented Programming', description:'Description'},
+      {title:'Advance Concepts', description:'Description'},
+      {title:'Final Projects', description:'Description'},
+      {title:'Project Submission and Examination', description:'Description'},
+    ]},
+    python:{
+    description:"Dive into the world of python programming with our comprehensive course designed for both beginners and intermediate learners. This course covers everything from the basics of python syntax to advanced programming techniques.",
+    grades:'5th - 10th Std ',
+    lectureCount:'15',
+    modules:[
+      {title:'Basic', description:'Description'},
+      {title:'Loops & Conditional statements', description:'Description'},
+      {title:'Functions & Pointers', description:'Description'},
+      {title:'Object Oriented Programming', description:'Description'},
+      {title:'Advance Concepts', description:'Description'},
+      {title:'Final Projects', description:'Description'},
+      {title:'Project Submission and Examination', description:'Description'},
+    ]},
+    cpp:{
+    description:"Dive into the world of C++ programming with our comprehensive course designed for both beginners and intermediate learners. This course covers everything from the basics of C++ syntax to advanced programming techniques.",
+    grades:'5th - 10th Std ',
+    lectureCount:'15',
+    modules:[
+      {title:'Basic', description:'Description'},
+      {title:'Loops & Conditional statements', description:'Description'},
+      {title:'Functions & Pointers', description:'Description'},
+      {title:'Object Oriented Programming', description:'Description'},
+      {title:'Advance Concepts', description:'Description'},
+      {title:'Final Projects', description:'Description'},
+      {title:'Project Submission and Examination', description:'Description'},
+    ]},
+    java:{
+    description:"Dive into the world of java programming with our comprehensive course designed for both beginners and intermediate learners. This course covers everything from the basics of java syntax to advanced programming techniques.",
+    grades:'5th - 10th Std ',
+    lectureCount:'15',
     modules:[
       {title:'Basic', description:'Description'},
       {title:'Loops & Conditional statements', description:'Description'},
@@ -82,7 +141,9 @@ export const programmingContents={
       {title:'Project Submission and Examination', description:'Description'},
     ]},
 javascript:{
-  description:"DESCRIPTION",
+  description:"Dive into the world of JavaScript programming with our comprehensive course designed for both beginners and intermediate learners. This course covers everything from the basics of JavaScript syntax to advanced programming techniques.",
+  grades:'5th - 10th Std ',
+  lectureCount:'15',
   modules:[
     {class:"Module 1",title:'Basic', description:'Description'},
     {class:"Module 2",title:'Loops & Conditional statements', description:'Description'},
@@ -98,6 +159,8 @@ javascript:{
  export const domainspecificContent={
   webContent:{
     description:"About Course DESCRIPTION",
+    grades:'5th - 10th Std ',
+    lectureCount:'15',
     modules:[
       {title:'HTML', description:'Description'},
       {title:'CSS', description:'Description'},
@@ -108,6 +171,8 @@ javascript:{
     ]},
     appContent:{
       description:"About Course DESCRIPTION",
+      grades:'5th - 10th Std ',
+      lectureCount:'15',
       modules:[
         {title:'Basic Java Programming', description:'Description'},
         {title:'Java/Kotlin for App Development', description:'Description'},
@@ -117,6 +182,8 @@ javascript:{
       ]},
       gameContent:{
         description:"About Course DESCRIPTION",
+        grades:'5th - 10th Std ',
+        lectureCount:'15',
         modules:[
           {title:'Basic C++ Programming', description:'Description'},
           {title:'2D/3D Graphics for Game Development', description:'Description'},
@@ -126,6 +193,8 @@ javascript:{
         ]},
         roboticsContent:{
           description:"About Course DESCRIPTION",
+          grades:'5th - 10th Std ',
+          lectureCount:'15',
           modules:[
             {title:'Introduction to IoT & Robotics', description:'Description'},
             {title:'Sensors and Microcontrollers', description:'Description'},
@@ -136,6 +205,8 @@ javascript:{
           ]},
         dbms:{
           description:"About Course DESCRIPTION",
+          grades:'5th - 10th Std ',
+          lectureCount:'15',
           modules:[
             {title:'Introduction to DBMS', description:'Description'},
             {title:'SQL Language', description:'Description'},
@@ -150,6 +221,8 @@ javascript:{
  export const foreignLanguageContent={
   germanContent:{
     description:"About Course DESCRIPTION",
+    grades:'5th - 10th Std ',
+    lectureCount:'15',
     modules:[
       {title:'Introduction to German Language', description:'Description'},
       {title:'Numbers and Day-Date-Time', description:'Description'},
@@ -160,6 +233,8 @@ javascript:{
     ]},
     italianContent:{
       description:"About Course DESCRIPTION",
+      grades:'5th - 10th Std ',
+      lectureCount:'15',
       modules:[
         {title:'Introduction to Italian Language', description:'Description'},
         {title:'Numbers and Day-Date-Time', description:'Description'},
@@ -170,6 +245,8 @@ javascript:{
       ]},
       spanishContent:{
         description:"About Course DESCRIPTION",
+        grades:'5th - 10th Std ',
+        lectureCount:'15',
         modules:[
           {title:'Introduction to Spanish Language', description:'Description'},
           {title:'Numbers and Day-Date-Time', description:'Description'},
@@ -180,6 +257,8 @@ javascript:{
         ]},
         chineseContent:{
           description:"About Course DESCRIPTION",
+          grades:'5th - 10th Std ',
+          lectureCount:'15',
           modules:[
             {title:'Introduction to Chinese Language', description:'Description'},
             {title:'Numbers and Day-Date-Time', description:'Description'},
@@ -190,6 +269,8 @@ javascript:{
           ]},
           frenchContent:{
             description:"About Course DESCRIPTION",
+            grades:'5th - 10th Std ',
+            lectureCount:'15',
             modules:[
               {title:'Introduction to French Language', description:'Description'},
               {title:'Numbers and Day-Date-Time', description:'Description'},
@@ -200,6 +281,8 @@ javascript:{
             ]},
             japaneseContent:{
               description:"About Course DESCRIPTION",
+              grades:'5th - 10th Std ',
+              lectureCount:'15',
               modules:[
                 {title:'Introduction to Japanese Language', description:'Description'},
                 {title:'Numbers and Day-Date-Time', description:'Description'},

@@ -84,7 +84,7 @@ function App() {
                 title="C++ Programming"
                 imgLink="https://tinyurl.com/2kf3vfy3"
                 lectureCount="15"
-                contents={programmingContents.c}
+                contents={programmingContents.cpp}
               />
             }
           ></Route>
@@ -99,7 +99,7 @@ function App() {
                 title="Python Programming"
                 imgLink="https://tinyurl.com/2fjh4g2f"
                 lectureCount="15"
-                contents={programmingContents.c}
+                contents={programmingContents.python}
               />
             }
           ></Route>
@@ -112,9 +112,9 @@ function App() {
                 course="Programming"
                 courseLink="/courses/programming"
                 title="Java Programming"
-                imgLink="https://tinyurl.com/2g8935d2"
+                imgLink="https://media.licdn.com/dms/image/D5612AQEbwrBQ8eGYug/article-cover_image-shrink_720_1280/0/1714367817877?e=1724889600&v=beta&t=BDxjDt5GpffC_QPtDG2M2RCHwLxCW6JNr4qcvQBgKRw"
                 lectureCount="15"
-                contents={programmingContents.c}
+                contents={programmingContents.java}
               />
             }
           ></Route>

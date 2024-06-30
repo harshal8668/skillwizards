@@ -12,7 +12,7 @@ export default function CourseCard(props) {
       <div className="d-flex flex-wrap CourseCardContainer mx-auto">
         {course.modules.map((module, index) => (
           <Link key={module.name} to={module.pathlink} className="links">
-            <div className="card m-2" style={{ width: "15rem", height:'15rem' }}>
+            <div className="card m-2" style={{ width: "15rem", height:'13rem' }}>
               <img
                 src={module.imgPath}
                 alt="img"
@@ -22,7 +22,7 @@ export default function CourseCard(props) {
 
               <div className="card-body">
                 <h5 className="card-title">{module.name}</h5>
-                <p className="card-text">Description </p>
+                {/* <p className="card-text">Description </p> */}
               </div>
             </div>
           </Link>
