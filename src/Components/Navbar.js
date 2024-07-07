@@ -106,7 +106,7 @@ export default function Navbar() {
             </li>
           </ul>
           <div className="nav-btn-container">
-            <span>I'M</span>
+            <span style={{fontWeight:'700', fontFamily:"'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"}}>I'm</span>
             <button  type="button"  className="tooltip-container nav-button">
               <span className="tooltip">
                 <span x="15" y="30" fill="white" style={{fontSize:"15px"}}>

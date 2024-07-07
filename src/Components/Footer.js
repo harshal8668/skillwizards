@@ -18,7 +18,7 @@ export default function Footer() {
             </p>
           </span>
 
-          <ul class="example-2 my-3">
+          <ul className="footer__links example-2 my-3">
             <li className="icon-content">
               <a
                 href="https://www.linkedin.com/in/skill-wizards-36306b30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -31,39 +31,39 @@ export default function Footer() {
               <div className="tooltip">LinkedIn</div>
             </li>
 
-            <li class="icon-content">
+            <li className="icon-content">
               <a
                 href="mailto:theskillwizards@gmail.com?cc=harshalborkar10105@gmail.com&bcc=sankitbinkar0904@gmail.com&subject=For Enquiry&body=Hello"
                 aria-label="gmail"
                 data-social="gmail"
               >
-                <div class="filled"></div>
+                <div className="filled"></div>
                 <i className="bi bi-envelope fs-2"></i>
               </a>
-              <div class="tooltip">GMail</div>
+              <div className="tooltip">GMail</div>
             </li>
 
-            <li class="icon-content">
+            <li className="icon-content">
               <a
                 href="https://www.instagram.com/theskillwizards?igsh=MW9vZnEyaGhjeW1ndg=="
                 aria-label="Instagram"
                 data-social="instagram"
               >
                 <i className="bi bi-instagram fs-3"></i>
-                <div class="filled"></div>
+                <div className="filled"></div>
               </a>
-              <div class="tooltip">Instagram</div>
+              <div className="tooltip">Instagram</div>
             </li>
-            <li class="icon-content">
+            <li className="icon-content">
               <a
                 href="https://www.youtube.com/channel/UCrcRXl-1fF4EwLahWj2eWTg"
                 aria-label="Youtube"
                 data-social="youtube"
               >
-                <div class="filled"></div>
+                <div className="filled"></div>
                 <i className="bi bi-youtube fs-2"></i>
               </a>
-              <div class="tooltip">Youtube</div>
+              <div className="tooltip">Youtube</div>
             </li>
           </ul>
 
