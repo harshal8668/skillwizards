@@ -12,7 +12,9 @@ function App() {
   const {
     courses,
     domainspecificContent,
-    foreignLanguageContent,programmingContents
+    foreignLanguageContent,programmingContents,
+    basicCourses,
+    advanceCourses
   } = require("./data");
 
   const programmingCatalog = [courses[0]];
@@ -27,7 +29,6 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/about" element={<About />}></Route>
-
           <Route key={1}
             exact
             path="/courses"
@@ -57,6 +58,17 @@ function App() {
             exact
             path="/courses/generalskill"
             element={<CourseCard courses={generalCatalog} />}
+          ></Route>
+
+          <Route key={23}
+            exact
+            path="/courses/basic"
+            element={<CourseCard courses={basicCourses} />}
+          ></Route>
+          <Route key={24}
+            exact
+            path="/courses/advance"
+            element={<CourseCard courses={advanceCourses} />}
           ></Route>
 
           <Route key={7}
@@ -191,6 +203,34 @@ function App() {
                 imgLink="https://media.istockphoto.com/id/1070984040/vector/industry-4-0-robot-with-ai-control-production-line-on-factory-robotics-arms.jpg?s=612x612&w=0&k=20&c=M1ejem8105g3CzNpzzIhkmsFYnjVO84p-WeivqCfR8M="
                 lectureCount="15"
                 contents={domainspecificContent.roboticsContent}
+              />
+            }
+          ></Route>
+          <Route key={25}
+            exact
+            path="/ds"
+            element={
+              <CourseContent
+                course="Domain Specific"
+                courseLink="/courses/domainspecific"
+                title="Data Science"
+                imgLink="https://www.naukri.com/campus/career-guidance/wp-content/uploads/2023/11/what-is-data-science.jpg"
+                lectureCount="15"
+                contents={domainspecificContent.dsContent}
+              />
+            }
+          ></Route>
+          <Route key={26}
+            exact
+            path="/ml"
+            element={
+              <CourseContent
+                course="Domain Specific"
+                courseLink="/courses/domainspecific"
+                title="Machine Learning"
+                imgLink="https://www.freecodecamp.org/news/content/images/2022/08/A6125B75-DB79-4448-94C9-E6ABD3E0E3E9.jpeg"
+                lectureCount="15"
+                contents={domainspecificContent.mlContent}
               />
             }
           ></Route>

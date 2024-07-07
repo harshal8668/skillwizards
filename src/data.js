@@ -1,5 +1,4 @@
 export const courses = [
-    
     {
       title: "Programming Languages",
       id: "programming",
@@ -24,6 +23,8 @@ export const courses = [
         { name: "App Development", pathlink: "/appdevelopment",imgPath:"https://5.imimg.com/data5/SELLER/Default/2024/1/377426086/LE/HB/WG/210219955/android-application-development-services-500x500.jpeg" },
         { name: "Game Development", pathlink: "/gamedevelopment",imgPath:"https://media.istockphoto.com/id/1256473398/vector/kids-learning-to-coding-programming-in-online-it-school-engineering-courses-in-internet-for.jpg?s=612x612&w=0&k=20&c=oeUkdgXcTJp-r32NuJ1oUYNaXx9cTHqBY2KX0YXUeNw=" },
         { name: "Robotics & IoT", pathlink: "/roboticsiot" ,imgPath:"https://media.istockphoto.com/id/1070984040/vector/industry-4-0-robot-with-ai-control-production-line-on-factory-robotics-arms.jpg?s=612x612&w=0&k=20&c=M1ejem8105g3CzNpzzIhkmsFYnjVO84p-WeivqCfR8M="},
+        { name: "Data Science", pathlink: "/ds" ,imgPath:"https://www.naukri.com/campus/career-guidance/wp-content/uploads/2023/11/what-is-data-science.jpg"},
+        { name: "Machine Learning", pathlink: "/ml" ,imgPath:"https://www.freecodecamp.org/news/content/images/2022/08/A6125B75-DB79-4448-94C9-E6ABD3E0E3E9.jpeg"},  
         { name: "Database Management", pathlink: "/dbms",imgPath:"https://media.istockphoto.com/id/1216332344/vector/vector-black-line-concept-of-internet-technology-dbms.jpg?s=612x612&w=0&k=20&c=dAxWRcLHj59Ab3xZHct_tXihMgZ_itgmO3aK4sFPp-M=" },
       ],
     },
@@ -85,8 +86,139 @@ export const courses = [
       ],
       
     },
+    
   ];
 
+
+export const basicCourses=[
+  {
+    title: "Junior's Special [Std 1st - 4th]",
+    id: "nocodedevelopment",
+    iconImg:"https://img.icons8.com/fluency/48/children.png",
+    description: "All programming language courses",
+    modules: [
+      { name: "No-Code Development", pathlink: "",imgPath:"https://www.shutterstock.com/image-vector/no-code-banner-vector-concept-260nw-1932625211.jpg " },
+      { name: "Abacus", pathlink: "" ,imgPath:"https://static.vecteezy.com/system/resources/previews/000/292/483/original/an-african-kid-learning-abacus-vector.jpg"},
+      { name: "Vedic Maths", pathlink: "", imgPath:"https://media.istockphoto.com/id/1045662318/vector/the-pi-symbol-mathematical-constant-irrational-number-greek-letter-and-many-formulas.jpg?s=612x612&w=0&k=20&c=lEnY5FBnFRMvOMKZ5mawoLg9X-tgLCifVdRtcKr1Np4="},
+      { name: "Critical Thinking" ,pathlink:'',imgPath:'https://media.istockphoto.com/id/1139877453/vector/artificial-intelligence-learning.jpg?s=612x612&w=0&k=20&c=VQ-Aa8M52Mwhc8fmuERpfpA8S1f5Qf8V3ohBOU9qImc='},
+      { name: "MS-Word" ,pathlink:'',imgPath:'https://www.pcworld.com/wp-content/uploads/2023/11/microsoft-word-logo.jpg?resize=1240%2C826&quality=50&strip=all'},
+      { name: "MS-Excel",pathlink:'',imgPath:'https://assets.entrepreneur.com/content/3x2/2000/20191218181212-Ent-Excel.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380' },
+      { name: "MS-Powerpoint" ,pathlink:'',imgPath:'https://media.idownloadblog.com/wp-content/uploads/2022/04/Microsoft-Powerpoint.png'},
+      { name: "Canva",pathlink:'',imgPath:'https://res-academy.cache.wpscdn.com/images/seo_posts/20231103/ba9605ac7b8f7b38b585106817bd3b2b.png' },
+      { name: "Photoshop",pathlink:'',imgPath:'https://www.waca.associates/en/wp-content/uploads/2021/02/photoshop-history-860x573.jpg' },
+    ],
+    
+  },
+  {
+    title: "Programming Languages",
+    id: "programming",
+    iconImg:"https://img.icons8.com/arcade/64/inspect-code.png",
+    description: "All programming language courses",
+    modules: [
+      { name: "C Programming", pathlink: "/cprogramming",imgPath:"https://image.slidesharecdn.com/c-200424152320/75/C-programming-1-2048.jpg" },
+      { name: "C++ Programming", pathlink: "/cpp" ,imgPath:"https://myneedtolive.com/wp-content/uploads/2020/08/Webp.net-resizeimage.jpg"},
+      { name: "Python Programming", pathlink: "/python", imgPath:"https://cdn.ourcodeworld.com/public-media/articles/articleocw-5c65fbda1ea05.jpg"},
+      { name: "Java Programming", pathlink: "/java" ,imgPath:"https://media.licdn.com/dms/image/D5612AQEbwrBQ8eGYug/article-cover_image-shrink_720_1280/0/1714367817877?e=1724889600&v=beta&t=BDxjDt5GpffC_QPtDG2M2RCHwLxCW6JNr4qcvQBgKRw"},
+      { name: "JavaScript Programming", pathlink: "/javascript",imgPath:"https://www.netburner.com/wp-content/uploads/elementor/thumbs/javascript-qoah3n58fmea9b2nzjdpvnbkjxwi9uj6z2eqrsc2ls.jpg" },
+    ],
+  },
+  {
+    title: "General Skills",
+    id: "generalskill",
+    description: "All domain specific course",
+    iconImg:"https://img.icons8.com/arcade/64/sort-by-modified-date.png",
+    modules: [
+      { name: "MS-Word" ,pathlink:'',imgPath:'https://www.pcworld.com/wp-content/uploads/2023/11/microsoft-word-logo.jpg?resize=1240%2C826&quality=50&strip=all'},
+      { name: "MS-Excel",pathlink:'',imgPath:'https://assets.entrepreneur.com/content/3x2/2000/20191218181212-Ent-Excel.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380' },
+      { name: "MS-Powerpoint" ,pathlink:'',imgPath:'https://media.idownloadblog.com/wp-content/uploads/2022/04/Microsoft-Powerpoint.png'},
+      { name: "Canva",pathlink:'',imgPath:'https://res-academy.cache.wpscdn.com/images/seo_posts/20231103/ba9605ac7b8f7b38b585106817bd3b2b.png' },
+      { name: "Photoshop",pathlink:'',imgPath:'https://www.waca.associates/en/wp-content/uploads/2021/02/photoshop-history-860x573.jpg' },
+    ],
+  },
+  {
+    title: "21st Century Skills",
+    id: "lifeskill",
+    description: "All domain specific course",
+    iconImg:"https://img.icons8.com/color/48/meeting.png",
+    modules: [
+      { name: "Personality Development",pathlink:'',imgPath:'https://media.istockphoto.com/id/911529646/vector/super-businessman.jpg?s=2048x2048&w=is&k=20&c=hrGH08Vqc9IbYHLQXc--6iPuBEnN6PsW-pvoAaGlhGw=' },
+      { name: "Communication Skills",pathlink:'',imgPath:'https://media.istockphoto.com/id/1162009708/vector/flat-design-concept-of-meeting-business-presentation-training-annual-report.jpg?s=612x612&w=0&k=20&c=M3o3FJhyLPycL_SrlKLqbcrtJnHgJl4GvruthY4O8ro=' },
+      { name: "Abacus",pathlink:'',imgPath:'https://static.vecteezy.com/system/resources/previews/000/292/483/original/an-african-kid-learning-abacus-vector.jpg ' },
+      { name: "Vedic Maths",pathlink:'',imgPath:'https://media.istockphoto.com/id/1045662318/vector/the-pi-symbol-mathematical-constant-irrational-number-greek-letter-and-many-formulas.jpg?s=612x612&w=0&k=20&c=lEnY5FBnFRMvOMKZ5mawoLg9X-tgLCifVdRtcKr1Np4=' },
+      { name: "Critical Thinking" ,pathlink:'',imgPath:'https://media.istockphoto.com/id/1139877453/vector/artificial-intelligence-learning.jpg?s=612x612&w=0&k=20&c=VQ-Aa8M52Mwhc8fmuERpfpA8S1f5Qf8V3ohBOU9qImc='},
+    ],
+  },
+  {
+    title: "Foreign Languages",
+    id: "foreign",
+    description: "All domain specific course",
+    iconImg:"https://img.icons8.com/3d-fluency/94/location.png",
+    modules: [
+      { name: "Spanish" ,pathlink:'/spanish',imgPath:'https://assets.website-files.com/5f3d3713427af43e4ebfd076/629e3d602494caf0b1446489_0610_Teaching-Spanish_Hero_3.jpg '},
+      { name: "Chinese" ,pathlink:'/chinese',imgPath:'https://t4.ftcdn.net/jpg/01/82/18/29/240_F_182182936_ohV2Lec20xosrwjV3kIkdemDFy17JZ9y.jpg'},
+      { name: "French" ,pathlink:'/french',imgPath:'https://cdn.ila-france.com/wp-content/uploads/2018/01/Learn-French-Comprehension.jpg'},
+      { name: "Italian" ,pathlink:'/italian',imgPath:'https://www.cosmolingua.in/wp-content/uploads/2023/01/Learn-Italian.jpg'},
+      { name: "Japanese" ,pathlink:'/japanese',imgPath:'https://www.cosmolingua.in/wp-content/uploads/2023/01/Learn-Japanese.jpg'},
+      { name: "German" ,pathlink:'/german',imgPath:'https://www.cosmolingua.in/wp-content/uploads/2023/01/Learn-German.jpg'},
+    ],
+  },
+];
+
+export const advanceCourses=[
+  {
+    title: "Programming Languages with DSA",
+    id: "programming",
+    iconImg:"https://img.icons8.com/arcade/64/inspect-code.png",
+    description: "All programming language courses",
+    modules: [
+      { name: "C Programming with DSA", pathlink: "/cprogramming",imgPath:"https://image.slidesharecdn.com/c-200424152320/75/C-programming-1-2048.jpg" },
+      { name: "C++ Programming with DSA", pathlink: "/cpp" ,imgPath:"https://myneedtolive.com/wp-content/uploads/2020/08/Webp.net-resizeimage.jpg"},
+      { name: "Python Programming with DSA", pathlink: "/python", imgPath:"https://cdn.ourcodeworld.com/public-media/articles/articleocw-5c65fbda1ea05.jpg"},
+      { name: "Java Programming with DSA", pathlink: "/java" ,imgPath:"https://media.licdn.com/dms/image/D5612AQEbwrBQ8eGYug/article-cover_image-shrink_720_1280/0/1714367817877?e=1724889600&v=beta&t=BDxjDt5GpffC_QPtDG2M2RCHwLxCW6JNr4qcvQBgKRw"},
+      { name: "JavaScript Programming with DSA", pathlink: "/javascript",imgPath:"https://www.netburner.com/wp-content/uploads/elementor/thumbs/javascript-qoah3n58fmea9b2nzjdpvnbkjxwi9uj6z2eqrsc2ls.jpg" },
+    ],
+  },
+  {
+    title: "Domain Specific",
+    id: "domainspecific",
+    description: "All domain specific course",
+    iconImg:"https://img.icons8.com/cotton/64/domain.png",
+    modules: [
+      { name: "Web Development", pathlink: "/webdevelopment",imgPath:"https://media.istockphoto.com/id/1169873646/vector/programming-web-banner.jpg?s=612x612&w=0&k=20&c=WOqI33qPlnzKdhxjr235ynOw9DYveoeAPPTcw9WfLMY=" },
+      { name: "App Development", pathlink: "/appdevelopment",imgPath:"https://5.imimg.com/data5/SELLER/Default/2024/1/377426086/LE/HB/WG/210219955/android-application-development-services-500x500.jpeg" },
+      { name: "Data Science", pathlink: "/ds" ,imgPath:"https://www.naukri.com/campus/career-guidance/wp-content/uploads/2023/11/what-is-data-science.jpg"},
+      { name: "Machine Learning", pathlink: "/ml" ,imgPath:"https://www.freecodecamp.org/news/content/images/2022/08/A6125B75-DB79-4448-94C9-E6ABD3E0E3E9.jpeg"},
+      { name: "Database Management", pathlink: "/dbms",imgPath:"https://media.istockphoto.com/id/1216332344/vector/vector-black-line-concept-of-internet-technology-dbms.jpg?s=612x612&w=0&k=20&c=dAxWRcLHj59Ab3xZHct_tXihMgZ_itgmO3aK4sFPp-M=" },
+    ],
+  },
+  {
+    title: "21st Century Skills",
+    id: "lifeskill",
+    description: "All domain specific course",
+    iconImg:"https://img.icons8.com/color/48/meeting.png",
+    modules: [
+      { name: "Personality Development",pathlink:'',imgPath:'https://media.istockphoto.com/id/911529646/vector/super-businessman.jpg?s=2048x2048&w=is&k=20&c=hrGH08Vqc9IbYHLQXc--6iPuBEnN6PsW-pvoAaGlhGw=' },
+      { name: "Communication Skills",pathlink:'',imgPath:'https://media.istockphoto.com/id/1162009708/vector/flat-design-concept-of-meeting-business-presentation-training-annual-report.jpg?s=612x612&w=0&k=20&c=M3o3FJhyLPycL_SrlKLqbcrtJnHgJl4GvruthY4O8ro=' },
+      { name: "Abacus",pathlink:'',imgPath:'https://static.vecteezy.com/system/resources/previews/000/292/483/original/an-african-kid-learning-abacus-vector.jpg ' },
+      { name: "Vedic Maths",pathlink:'',imgPath:'https://media.istockphoto.com/id/1045662318/vector/the-pi-symbol-mathematical-constant-irrational-number-greek-letter-and-many-formulas.jpg?s=612x612&w=0&k=20&c=lEnY5FBnFRMvOMKZ5mawoLg9X-tgLCifVdRtcKr1Np4=' },
+      { name: "Critical Thinking" ,pathlink:'',imgPath:'https://media.istockphoto.com/id/1139877453/vector/artificial-intelligence-learning.jpg?s=612x612&w=0&k=20&c=VQ-Aa8M52Mwhc8fmuERpfpA8S1f5Qf8V3ohBOU9qImc='},
+    ],
+  },
+  {
+    title: "Foreign Languages",
+    id: "foreign",
+    description: "All domain specific course",
+    iconImg:"https://img.icons8.com/3d-fluency/94/location.png",
+    modules: [
+      { name: "Spanish" ,pathlink:'/spanish',imgPath:'https://assets.website-files.com/5f3d3713427af43e4ebfd076/629e3d602494caf0b1446489_0610_Teaching-Spanish_Hero_3.jpg '},
+      { name: "Chinese" ,pathlink:'/chinese',imgPath:'https://t4.ftcdn.net/jpg/01/82/18/29/240_F_182182936_ohV2Lec20xosrwjV3kIkdemDFy17JZ9y.jpg'},
+      { name: "French" ,pathlink:'/french',imgPath:'https://cdn.ila-france.com/wp-content/uploads/2018/01/Learn-French-Comprehension.jpg'},
+      { name: "Italian" ,pathlink:'/italian',imgPath:'https://www.cosmolingua.in/wp-content/uploads/2023/01/Learn-Italian.jpg'},
+      { name: "Japanese" ,pathlink:'/japanese',imgPath:'https://www.cosmolingua.in/wp-content/uploads/2023/01/Learn-Japanese.jpg'},
+      { name: "German" ,pathlink:'/german',imgPath:'https://www.cosmolingua.in/wp-content/uploads/2023/01/Learn-German.jpg'},
+    ],
+  },
+];
 
 export const programmingContents={
     c:{
@@ -201,6 +333,29 @@ javascript:{
             {title:'Sensors and Microcontrollers', description:'Description'},
             {title:'MicroController programming', description:'Description'},
             {title:'Integration of Hardware and Software', description:'Description'},
+            {title:'Final Projects', description:'Description'},
+            {title:'Project Submission and Examination', description:'Description'},
+          ]},
+        dsContent:{
+          description:"Data Science",
+          grades:'Professionals ',
+          lectureCount:'15',
+          modules:[
+            {title:'Introduction to Data Science', description:'Description'},
+            {title:'Python for Data Science', description:'Description'},
+            {title:'Data Manipulation', description:'Description'},
+            {title:'Data Visualization and Tools', description:'Description'},
+            {title:'Final Projects', description:'Description'},
+            {title:'Project Submission and Examination', description:'Description'},
+          ]},
+        mlContent:{
+          description:"Machine Learning",
+          lectureCount:'15',
+          modules:[
+            {title:'Introduction to Machine Learning', description:'Description'},
+            {title:'Python for Machine Learning', description:'Description'}, 
+            {title:'Machine Learning Tools', description:'Description'}, 
+            {title:'Machine Learning Algorithms', description:'Description'},
             {title:'Final Projects', description:'Description'},
             {title:'Project Submission and Examination', description:'Description'},
           ]},

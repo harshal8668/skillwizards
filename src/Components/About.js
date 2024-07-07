@@ -76,7 +76,7 @@ export default function About() {
         ></Mentors>
 
         <Mentors className="mentorsImgBorder" imgClass="mentorsImg"
-          imgSrc={require("../assets/bhoyarSir.jpeg")}
+          imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVMVc3rfXlcPbwuYy3pi51yN4faHjLU528nw&s"
           name="Dr. Kishor Bhoyar"
           designation="Assistant Head of Department"
           organization="CSE,YCCE"
